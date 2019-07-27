@@ -1,0 +1,54 @@
+
+.menu{
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background: #ffa919;
+    
+    
+}
+
+.menu li{
+       list-style: none;
+       float: left;
+       padding: 5px;
+       position: relative;   
+       cursor: pointer;   
+       margin: 5px;
+       margin-bottom: 40px;
+    
+
+}
+
+
+.menu li:hover{
+
+    color: #ffa919;
+    background: white;
+    border: 1px solid black;
+
+}
+
+.buscador{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.submit{
+    cursor: pointer;
+}
+
+.submit:hover{
+    border-bottom: 1px solid black;
+
+}
+
+@media (max-width: 620px){
+    .buscador {
+        display: none;
+    * {
+        flex-wrap: wrap;
+    }
+    }
+}

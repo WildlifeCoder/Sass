@@ -1,0 +1,130 @@
+body {
+  background: white;
+  width: 100%;
+  margin: 5px 5px;
+  box-sizing: border-box; }
+
+.menu {
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  background: #ffa919; }
+
+.menu li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 40px; }
+
+.menu li:hover {
+  color: #ffa919;
+  background: white;
+  border: 1px solid black; }
+
+.buscador {
+  position: absolute;
+  right: 0;
+  top: 10px; }
+
+.submit {
+  cursor: pointer; }
+
+.submit:hover {
+  border-bottom: 1px solid black; }
+
+@media (max-width: 620px) {
+  .buscador {
+    display: none; }
+    .buscador * {
+      flex-wrap: wrap; } }
+
+.section {
+  background: #ffa919;
+  color: black;
+  width: 100%; }
+
+footer {
+  background: black;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  height: 120px; }
+
+.social li {
+  list-style: none;
+  font-size: 40px;
+  display: inline-flex;
+  cursor: pointer; }
+
+.parrafo_1 {
+  color: black;
+  background: white;
+  margin-bottom: 100px; }
+
+.titulo_parrafo {
+  color: #e49000; }
+
+.contenido {
+  width: 60%;
+  position: relative; }
+
+.aside {
+  width: 30%;
+  float: right;
+  top: -780px;
+  position: relative;
+  text-align: center; }
+
+.img_aside {
+  width: 80%; }
+
+footer {
+  clear: both; }
+
+.banner {
+  height: 300px;
+  width: 600px;
+  overflow: hidden;
+  border: solid black;
+  position: relative;
+  clear: both;
+  margin-left: 60px; }
+
+.banner_menu {
+  width: 400%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  animation: cambio 20s infinite alternate linear; }
+
+.banner_img {
+  width: 600px;
+  height: 300px; }
+
+.banner_item {
+  padding: 0;
+  list-style: none; }
+
+@keyframes cambio {
+  0% {
+    margin-left: 0%; }
+  20% {
+    margin-left: 0%; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
+
+.parrafo_2 {
+  background: white; }
