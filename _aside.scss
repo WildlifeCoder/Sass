@@ -1,12 +1,11 @@
 .aside { 
     width: 30%;
     float: right;
-    top: -780px;
+    top: -1400px;
     position: relative;
     text-align: center;
+    
    
-
-
 }
 
 .img_aside{
@@ -17,4 +16,23 @@
 
 footer{
     clear: both;
+}
+
+@media (max-width: 570px) {
+
+    .aside{
+        float:left;
+        position: static;
+    }
+
+}
+
+
+@media (max-width: 970px) {
+
+    .aside{
+        float:left;
+        position: static;
+    }
+
 }

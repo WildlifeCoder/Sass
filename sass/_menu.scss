@@ -1,7 +1,10 @@
 
+
+
+
 .menu{
     margin: 0;
-    height: 40px;
+    height: 50px;
     width: 100%;
     background: #ffa919;
     
@@ -32,7 +35,11 @@
 .buscador{
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 5px;
+}
+
+.ingresar{
+    position: absolute;
 }
 
 .submit{

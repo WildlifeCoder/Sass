@@ -7,61 +7,59 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/styles.css">
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
 </head>
+
 <body>
+
     
-    <section>
 
-<header>
+<header class="cabeza">
 
-    <ul class="menu">
-        <li class="item_menu">Inicio<a href="" class="link_menu"></a></li>
-        <li class="item_menu">Servicios<a href="" class="link_menu"></a></li>
-        <li class="item_menu">Informacion<a href="" class="link_menu"></a></li>
-        <li class="item_menu">Nosotros<a href="" class="link_menu"></a></li>
+    <ul class="btn-group bg-primary text-light text-uppercase menu">
+        <button class="item_menu btn-primary ">Inicio<a href="" class="link_menu"></a></button>
+       <button class="item_menu btn-primary dropdown-toggle" data-toggle="dropdown">Servicios 
+            <div class="dropdown-menu">  
+            <a href="" class="dropdown-item">1</a>
+            <a href="" class="dropdown-item">2</a>
+            <a href="" class="dropdown-item">3</a></div>
+        </button>
+        <button class="item_menu btn-primary dropdown-toggle" data-toggle="dropdown">Informacion
+            <div class="dropdown-menu">  
+                <a href="" class="dropdown-item">1</a>
+                <a href="" class="dropdown-item">2</a>
+                <a href="" class="dropdown-item">3</a></div></button>
+        <button class="item_menu btn-primary dropdown-toggle">Nosotros
+                <div class="dropdown-menu">  
+                        <a href="" class="dropdown-item">1</a>
+                        <a href="" class="dropdown-item">2</a>
+                        <a href="" class="dropdown-item">3</a></div>
+        </button>
     </ul>
 
-    <div class="buscador">
-    <label for="Buscar"></label> <input type="text" placeholder="Buscar">
-    <input class="submit" type="submit" value="Buscar"> 
-      </div>
+    <span class="float-sm-left"><div class="buscador">
+    <input class="" type="text" placeholder="Buscar" >
+    <input class="btn btn-dark btn-sm " type="submit" value="Buscar"> 
+      </div></span>
 
+<div class="ingresar">
+<button class="btn btn-primary btn-sm float-right">
+    <i class="fa fa-user"></i> Ingresar
+</button></span>
+<span><input class="float-right" type="text" placeholder="Contraseña">
+<input class="float-right  float-md-left" type="text" placeholder="Usuario">
+</div>
 </header>
-
-
 
 </section>
 
-
-<div class="banner">
-    <ul class="banner_menu">
-        <li class="banner_item"><img src="img/bek.jpg" alt="" class="banner_img"></li>
-        <li class="banner_item"><img src="img/beksi.jpg" alt="" class="banner_img"></li>
-        <li class="banner_item"><img src="img/beksin.jpg" alt="" class="banner_img"></li>
-        <li class="banner_item"><img src="img/beks.jpeg" alt="" class="banner_img"></li>
-    </ul>
-</div>
-
 <section class="contenido">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="parrafo_1">
-<h2 class="titulo_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nisi?</h2>
-<article class="articulo">
+<span class="text-danger text-uppercase"><h2 class="display-4" > ipsum dolor sit amet consectetur adipisicing elit. Maiores, nisi?</h2></span>
+
+<span class="text-justify m-4"><article class="articulo">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 Mollitia obcaecati maiores voluptatibus voluptatum temporibus, 
 voluptate officiis quibusdam consequatur cupiditate impedit nostrum qui 
@@ -71,14 +69,22 @@ provident repudiandae natus! Labore magnam, nisi veritatis dolorem illum illo, i
 explicabo hic accusantium maiores adipisci, velit asperiores unde. Vel repellat perspiciatis 
 officiis enim est. Voluptatem, facilis! Tempore omnis quas animi, similique eius ut sed modi 
 dolorum doloremque? Neque nesciunt impedit possimus reprehenderit nisi, cupiditate
- nobis sint voluptates error, deleniti aliquid porro earum?  </article>        
+ nobis sint voluptates error, deleniti aliquid porro earum?  </article></span>        
 </div>
 
+<div class="banner">
+    <ul class="banner_menu">
+        <li class="banner_item"><img src="img/bek.jpg" alt="" class="banner_img"><button>
+        <li class="banner_item"><img src="img/beksi.jpg" alt="" class="banner_img"><button>
+        <li class="banner_item"><img src="img/beksin.jpg" alt="" class="banner_img"><button>
+        <li class="banner_item"><img src="img/beks.jpeg" alt="" class="banner_img"><button>
+    </ul>
+</div>
 
 <div class="parrafo_2">
-    <h2 class="titulo_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, est?   </h2>
+    <span class="text-danger text-uppercase"><h2 class="display-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, est?   </h2></span>
 
-    <article class="articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   <span class="text-justify"><article class="articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Mollitia obcaecati maiores voluptatibus voluptatum temporibus, 
             voluptate officiis quibusdam consequatur cupiditate impedit nostrum qui 
             ullam repellat laborum quidem aut amet similique, cumque dicta fugit reprehenderit, 
@@ -87,31 +93,39 @@ dolorum doloremque? Neque nesciunt impedit possimus reprehenderit nisi, cupidita
             explicabo hic accusantium maiores adipisci, velit asperiores unde. Vel repellat perspiciatis 
             officiis enim est. Voluptatem, facilis! Tempore omnis quas animi, similique eius ut sed modi 
             dolorum doloremque? Neque nesciunt impedit possimus reprehenderit nisi, cupiditate
-             nobis sint voluptates error, deleniti aliquid porro earum?    </article>
+             nobis sint voluptates error, deleniti aliquid porro earum?    </article> </span>
 </div>
 </section>
 <aside class="aside">
 
-    <img src="img/bek.jpg" alt="" class="img_aside">
-        <h3 class="titulo_img">Lorem ipsum dolor sit amet.</h3>
-        <p class="parrafo_img">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        <div class="formulario"> 
+            
+                <legend>Registrate</legend>
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Nombre">
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Apellido">
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Usuario">
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Contraseña">
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Email">
+                <input class=" p-1 bg-light border border-dark btn-block" type="text" placeholder="Repetir Email">
+               <button class="btn btn-primary btn-md btn-block mb-5">
+                <i class="fa fa-user "></i> Registrarse</button> </div>
+
+    <img src="img/bek.jpg" alt="" class="img_aside rounded-sm">
+        <h3 class="mt-3 mb-5 titulo_img">Lorem ipsum dolor sit amet.</h3>
+      <span class="text-justify"> <p class="parrafo_img">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
             Est natus voluptatum aspernatur voluptates placeat voluptatem, ex eveniet. 
             Sequi omnis voluptatum expedita ut, veritatis, ea, beatae officia tempore 
-            similique eveniet illum..</p>
+            similique eveniet illum..</p></span>
 
 <div class="secundarios">
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="bg-warning mx-1 p-5 ">Lorem ipsum dolor sit amet.</p>
+    <p class="bg-primary mx-2 p-5">Lorem ipsum dolor sit amet.</p>
+    <p class="bg-danger mx-3 p-5">Lorem ipsum dolor sit amet.</p>
+    <p class="bg-success mx-4 p-5">Lorem ipsum dolor sit amet.</p>
+    <p class="bg-success mx-5 p-5">Lorem ipsum dolor sit amet.</p>
 
     </div>
-        
-
 </aside>
-    
-
 
 
 <footer>
@@ -125,8 +139,14 @@ dolorum doloremque? Neque nesciunt impedit possimus reprehenderit nisi, cupidita
         </ul>
     </div>
 
-    &copy; <b> Todos los derechos reservados - Mahunta
+      <ins>Todos los derechos reservados - Macsmaster</ins>&copy; 
 
 </footer>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+</div>
 </body>
 </html>

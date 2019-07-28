@@ -4,14 +4,11 @@ body{
     width: 100%;
     margin: 5px 5px;
     box-sizing: border-box;
-  
- 
     
+    @media (max-width: 600px){
+
+        * {
+            width: 100%;
     
-
-    
-
-
-
-}
-
+        }   
+    }
